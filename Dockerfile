@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir pipenv && \
 
 COPY . .
 
-CMD ["python", "apartment_analysis.py"]
+CMD ["python", "src/main.py"]
