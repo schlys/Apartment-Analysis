@@ -4,6 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+playwright = "*"
+playwright-stealth = "*"
+yagmail = "*"
 
 [dev-packages]
 
@@ -12,4 +15,4 @@ python_version = "3.12"
 python_full_version = "3.12.13"
 
 [scripts]
-start = "python apartment_analysis.py"
+start = "python src/main.py"
